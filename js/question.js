@@ -5,13 +5,13 @@ const containerQuestion = document.getElementById("questionsContainer");
 
 const results = document.querySelector(".results-card");
 const correctSound = new Audio(
-  "../sounds/mixkit-correct-answer-reward-952.wav",
+  "/sounds/mixkit-correct-answer-reward-952.wav",
 );
-const wrongSound = new Audio("../sounds/mixkit-wrong-long-buzzer-954.wav");
+const wrongSound = new Audio("/sounds/mixkit-wrong-long-buzzer-954.wav");
 const warningtSound = new Audio(
-  "../sounds/mixkit-vintage-warning-alarm-990.wav",
+  "/sounds/mixkit-vintage-warning-alarm-990.wav",
 );
-const revealSound = new Audio("../sounds/mixkit-correct-answer-tone-2870.wav");
+const revealSound = new Audio("/sounds/mixkit-correct-answer-tone-2870.wav");
 
 export class Question {
   constructor(index) {
